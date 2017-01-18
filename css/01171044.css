@@ -1,0 +1,33 @@
+body {
+	font-family: "宋体";
+	background-image: url(../img/img1.jpg);
+	background-repeat: no-repeat;
+	background-position: right ;
+}
+hr {
+	border:3px dashed red;
+}
+.poem{
+	/*float: left;*/
+	/*border: 1px solid red;*/
+	height: 180px;
+	position: absolute;
+	left: 140px;
+	top:-20px;
+}
+#img_libai{
+/*	float: left;*/
+	width: 130px;
+	height: 180px;
+	/*border: 1px solid red;*/
+}
+#author{
+	font-size: 25px;
+	font-weight: bold;
+}
+#poem{
+	color: red;
+	font-weight: bold;
+	font-family: "宋体";
+	font-size: 17px;
+}

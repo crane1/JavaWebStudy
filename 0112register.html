@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title></title>
+		<style type="text/css">
+		h1.intro {color:blue;}
+		p.important {color:red;}
+		body{text-align:} 
+		</style>
+	</head>
+	<!--
+    	作者：820169813@qq.com
+    	时间：2017-01-12
+    	描述：注册页面
+    -->
+	<body style="background-color:aquamarine;">
+		<marquee behavior="alternate" direction="right" scrollamount="15"><h1 class="intro">欢迎登录</h1></marquee>	
+		<form action="success.html" method="get">
+			<table align="center">
+				<tr>
+					<td>用户名<font color="red">*</font></td>
+					<td><input type="text" name="username" id="name" style="width: 230px;"/></td>
+				</tr>
+				<tr>
+					<td>密码<font color="red">*</font></td>
+					<td><input type="password" name="userpwd" id="pwd" style="width: 230px;"/></td>
+				</tr>
+				<tr>
+					<td>爱好</td>
+					<td>
+						<input type="checkbox" name="song" checked="checked"/>唱歌
+						<input type="checkbox" name="dance"/>跳舞
+						<input type="checkbox" name="basketball"/>打篮球
+						<input type="checkbox" name="internet" />上网
+					</td>
+				</tr>
+				<tr>
+					<td>性别<font color="red">*</font></td>
+					<td>
+						<input type="radio" name="sex" checked="checked"/>男
+					 	<input type="radio" name="sex"/>女
+					</td>
+				</tr>
+				<tr>
+					<td>家庭住址<font color="red">*</font></td>
+					<td>
+						<select>
+							<option>陕西</option>
+					   		<option>河南</option>
+					   		<option>四川</option>
+					   		<option>河北</option>
+					  	</select>省
+					  	<select>
+					   		<option>宝鸡</option>
+					   		<option>渭南</option>
+					   		<option>西安</option>
+					   		<option>咸阳</option>
+					  </select>市/区
+					  <select>
+					   		<option>眉</option>
+					   		<option>岐山</option>
+					   		<option>凤</option>
+					   		<option>凤翔</option>
+					  </select>县<br />
+					</td>
+				</tr>
+			  	<tr>
+					<td>专业<font color="red">*</font></td>
+					<td>
+						<select>
+							<option>数学与应用数学</option>
+							<option>信息与计算科学</option>
+							<option>应用物理</option>
+							<option>统计学</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>个人介绍</td>
+					<td>
+						<textarea rows="5" cols="27"></textarea>
+					</td>
+				</tr>
+				<tr align="center">
+					<td colspan="2">
+						<input type="submit" name="login" value="完成" />
+						<input type="reset" name="reset" value="重置"/>
+					</td>
+				</tr>	
+			</table>
+		</form>
+	</body>
+</html>

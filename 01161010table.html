@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title></title>
+		<style type="text/css">
+			#outtb {
+				background-color: aquamarine;
+				margin: 0 auto;
+				width: 600px;
+			}
+			#outtd {
+				padding-left: 20px;
+			}
+			#outhr {
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+			font {
+				color: red;
+			}
+			hr {
+				background-color: red;
+				height: 5px;
+			}
+			#innertab {
+				border: 10px outset white;
+				margin: 0 auto;
+				background-color: white;
+				width: 450px;
+				height: 150px;
+				/*text-align: center;*/
+				/*border-collapse:collapse;*/
+			}
+			#innertd {
+				border: 1px double gray;
+				width: 200px;
+			}
+			.td1 {
+				text-align: right;
+				color: #FFA500;
+				font-weight: bold;
+				font-size: 13px;
+			}
+			.td2 {
+				padding-left: 3px;
+			}
+			.td3 {
+				text-align: center;
+				color: red;
+			}
+			/*#register {
+				text-align: right;
+			}*/
+			#register p {
+				color:#008000;
+			}
+			input {
+				color: blue;
+			}
+			#submit {
+				background-image: url(img/ren.jpg);
+				background-repeat: no-repeat;
+				background-position: left;
+			}
+			.btn1 {
+				width: 70px;
+				margin-right: 20px;
+				margin-left: auto;
+				border: 2px solid gray;
+			}
+			.bor {
+				border: 2px inset gray;
+				width: 130px;
+			}
+		</style>
+	</head>
+	<body>
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+		<table id="outtb">
+			<tr>
+				<td id="outtd"><br/><font>当前位置：</font>个人用户登录:</td>
+			</tr>
+			<tr>
+				<td id="outhr"><hr /><br /></td>
+			</tr>
+			<tr>
+				<td id="outtd"><p id="register">登录吧，别小气了...</p></td>
+			</tr>
+			<tr>
+				<td>
+					<form action="success.html" method="get">
+						<table cellpadding="0px" cellspacing="0px" id="innertab">
+							<tr>
+								<td class="td1" id="innertd">登录方式：</td>
+								<td class="td2" id="innertd">
+									<select class="bor">
+										<option value="usrname">以用户名登录</option>
+										<option value="QQ">以QQ号登录</option>
+										<option value="wechat">以微信号登录</option>
+									</select>
+								</td>
+								<td id="innertd"></td>
+							</tr>
+							<tr>
+								<td class="td1" id="innertd">用户名：</td>
+								<td class="td2" id="innertd"><input type="text" name="username" class="bor" /></td>
+								<td class="td3" id="innertd">*</td>
+							</tr>
+							<tr>
+								<td class="td1" id="innertd">密码：</td>
+								<td class="td2" id="innertd"><input type="password" name="userpwd" class="bor"/></td>
+								<td class="td3" id="innertd">*</td>
+							</tr>
+							<tr>
+								<td colspan="3" class="td3" id="innertd">
+									<input type="submit" value="登录" id="submit" class="btn1"/>
+									<a href="register.html" style="text-decoration: none;"><input type="button" value="忘记密码" class="btn1"/></a></button>
+								</td>
+							</tr>
+						</table>
+					</form>
+				</td>
+				
+			</tr>
+			<tr>
+				<td id="outtd"><p id="register"><a href="register.html" >还没注册</a></p></td>
+			</tr>
+			<tr>
+				<td id="outhr"><hr /><br /></td>
+			</tr>
+		</table>
+	</body>
+</html>

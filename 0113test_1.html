@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title></title>
+		<style type="text/css">
+			body {
+				background-color: darkseagreen;
+			}
+			font {
+				color: red;
+			}
+			hr {
+				background-color: red;
+				height: 5px;
+			}
+			table {
+				border: 10px outset white;
+				margin: 0 auto;
+				background-color: white;
+				width: 600px;
+				text-align: center;
+				/*border-collapse:collapse;*/
+			}
+			td {
+				border: 1px double gray;
+				width: 200px;
+			}
+			.td1 {
+				text-align: right;
+				color: #FFA500;
+				font-weight: bold;
+			}
+			.td2 {
+				text-align: left;
+			}
+			.td3 {
+				text-align: center;
+				color: red;
+			}
+			/*#register {
+				text-align: right;
+			}*/
+			#register p {
+				color:#008000;
+			}
+			input {
+				color: blue;
+			}
+			#submit {
+				background-image: url(img/ren.jpg);
+				background-repeat: no-repeat;
+				background-position: left;
+			}
+			.btn1 {
+				width: 70px;
+				margin-right: 20px;
+				margin-left: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<p><font>当前位置：</font>个人用户登录:</p>
+		<hr /><br />
+		<p id="register">登录吧，别小气了...</p>
+		<form action="success.html" method="get">
+			<table cellpadding="0px" cellspacing="0px">
+				<tr>
+					<td class="td1">登录方式：</td>
+					<td class="td2"><select name="">
+						<option value="usrname">以用户名登录</option>
+						<option value="QQ">以QQ号登录</option>
+						<option value="wechat">以微信号登录</option>
+					</select></td>
+					<td ></td>
+				</tr>
+				<tr>
+					<td class="td1">用户名：</td>
+					<td class="td2"><input type="text" name="username" id="name"/></td>
+					<td class="td3">*</td>
+				</tr>
+				<tr>
+					<td class="td1">密码：</td>
+					<td class="td2"><input type="password" name="userpwd" id="pwd"/></td>
+					<td class="td3">*</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<input type="submit" value="登录" id="submit" class="btn1"/>
+						<a href="register.html" style="text-decoration: none;"><input type="button" value="忘记密码" class="btn1"/></a></button>
+					</td>
+				</tr>
+			</table>
+		</form>
+		<p id="register"><a href="register.html" >还没注册</a></p>
+		
+		
+		<hr /><br />
+	</body>
+</html>

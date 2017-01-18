@@ -1,0 +1,139 @@
+body {
+	background-color: cornflowerblue;
+}
+
+marquee{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+hr {
+	border: 1px solid mediumpurple;
+}
+
+#top {
+	text-align: center;
+}
+
+#left {
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+#left_tb {
+	width: 150px;
+	height: 500px;
+}
+
+th {
+	background-color: green;
+}
+
+#right {
+	float: left;
+	background: url(../img/back1.jpg);
+	background-size: 1500px 960px;
+	margin-left: 180px;
+	width: 1500px;
+	height: 960px;
+}
+
+#right_1 {
+	float: left;
+	margin-left: 85px;
+	margin-top: 20px;
+	padding: 5px;
+	background-color: green;
+	width: 1400px;
+	text-align: right;
+	
+}
+
+#title {
+	font-size: 30px;
+	color: yellow;
+	font-family: "宋体";
+}
+
+#right_2 {
+	width: 1400px;
+	float: left;
+	margin-left: 15px;
+	/*border: 1px solid red;*/
+}
+
+#right_2_1 {
+	float: left;
+	width: 750px;
+	/*border: 1px solid red;*/
+	
+}
+
+#right_2_2 {
+	float: left;
+	/*border: 1px solid red;*/
+	width: 630px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#sec1 {
+	float: left;
+	width: 750px;
+	height: 160px;
+	/*border: 1px solid red;*/
+}
+#poem {
+	float: left;
+	width: 600px;
+	height: 100px;
+	color: whitesmoke;
+	text-indent: 2em;
+}
+
+#author {
+	color: whitesmoke;
+	text-align: right;
+}
+
+#img_sushi {
+	float: left;
+	margin-left: 10px;
+	width: 140px;
+	height: 100px;
+}
+
+#img_ss {
+	width: 130px;
+	height: 160px;	
+}
+
+#yitu {
+	float: left;
+	color: greenyellow;
+	text-indent: 2em;
+}
+
+#right_tb {
+	border: 2px double green;
+	width: 600px;
+	height: 400px;
+}
+
+#right_td {
+	border: 1px double green;
+	
+}
+
+#bottom {
+	float: left;
+	width: 1400px;
+	margin-left: 15px;
+	text-indent: 2em;
+}
+
+#sub_author {
+	text-align: right;
+	color: orange;
+}
