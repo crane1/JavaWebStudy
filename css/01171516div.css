@@ -123,7 +123,8 @@ th {
 
 #right_td {
 	border: 1px double green;
-	
+	border-bottom-style: hidden;
+	border-top-style: hidden;
 }
 
 #bottom {
